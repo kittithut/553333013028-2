@@ -6,6 +6,7 @@ public class DonaldLove {
 	public String friend[];
 	
 	public DonaldLove() {
+		System.out.println("Donald Love");
 		name = "Donald Love";
 		location = "Goal Keeper";
 		friend = new String[] {"Guillermo Varela","Tom Thorpe","Guillermo Varela"};
