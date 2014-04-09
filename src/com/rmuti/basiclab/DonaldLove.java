@@ -6,11 +6,15 @@ public class DonaldLove {
 	public String friend[];
 	
 	public DonaldLove() {
-		System.out.println("Donald Love");
 		name = "Donald Love";
 		location = "Goal Keeper";
 		friend = new String[] {"Guillermo Varela","Tom Thorpe","Guillermo Varela"};
 	}
+	
+	public DonaldLove(int n) {
+		System.out.println("Donald Love Overloading 1");
+	}
+	
 	public String getName() {
 		return name;
 	}
