@@ -1,11 +1,11 @@
 package com.rmuti.basiclab;
 
-public class Donald_Love {
+public class DonaldLove {
 	public String name;
 	public String location;
 	public String friend[];
 	
-	public Donald_Love() {
+	public DonaldLove() {
 		name = "Donald Love";
 		location = "Goal Keeper";
 		friend = new String[] {"Guillermo Varela","Tom Thorpe","Guillermo Varela"};
