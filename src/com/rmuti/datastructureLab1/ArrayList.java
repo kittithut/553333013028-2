@@ -1,7 +1,7 @@
 package com.rmuti.datastructureLab1;
 
 public class ArrayList {
-	public Object[] elementData = new Object[1];
+	private Object[] elementData = new Object[1];
 	public int size = 0;
 
 	public void add(Object e) {
