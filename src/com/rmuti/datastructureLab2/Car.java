@@ -2,10 +2,10 @@ package com.rmuti.datastructureLab2;
 
 public class Car implements Comparable {
 	private String name;
-	private int type;
+	private String type;
 	private int price;
 
-	public Car(String name, int type, int price) {
+	public Car(String name, String type, int price) {
 		this.name = name;
 		this.type = type;
 		this.price = price;
@@ -25,7 +25,7 @@ public class Car implements Comparable {
 
 	@Override
 	public String toString() {
-		return String.format("[%s, %d, %d]", name, type, price);
+		return String.format("[%s, %s, %d]", name, type, price);
 	}
 
 }
